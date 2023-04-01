@@ -16,15 +16,11 @@
 
 .imagen {border: 2px solid black;}
 
-.center {
-    border: 2px solid black;
-    
-}
-
 .nombre {
     height: 50%; 
     width: 100%;
     font-size: 30px;
+    
 }
 
 .estudios {
@@ -33,11 +29,28 @@
     font-size: 20px;
 }
 
+.apartado1 {
+
+    display: grid;
+    height: 100%;
+    width: 100%;
+
+}
+
+.apartado2 {
+
+    height: 100%;
+    width: 100%;
+    display: grid;
+
+}
+
 .contenido {
 
     background-color: rgb(245, 222, 196);
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100%;
     
 }
 
@@ -55,7 +68,7 @@
 
 .edu {
 
-    font-size: 15px;
+    font-size: 20px;
 
 }
 
@@ -69,11 +82,12 @@
     border: 1px solid black;
     background-color: rgba(235, 222, 34, 0.514);
     
+
 }
 
 .ski {
 
-        font-size: 15px;
+        font-size: 20px;
 
 }
 
@@ -100,6 +114,7 @@
 
 .experiencia{
 
+    
     font-size: 25px;
     border: 1px solid black;
     background-color: rgba(235, 222, 34, 0.514);
@@ -107,6 +122,6 @@
 
 .exp {
 
-    font-size: 15px;
+    font-size: 20px;
 
 }

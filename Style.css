@@ -1,0 +1,112 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.encabezado {
+
+    background-color: rgb(163, 160, 160);
+    display: grid;
+    grid-template-columns: 15% 85%;
+
+}
+
+.imagen {border: 2px solid black;}
+
+.center {
+    border: 2px solid black;
+    
+}
+
+.nombre {
+    height: 50%; 
+    width: 100%;
+    font-size: 30px;
+}
+
+.estudios {
+    height: 50%;
+    width: 100%;
+    font-size: 20px;
+}
+
+.contenido {
+
+    background-color: rgb(245, 222, 196);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+}
+
+.seccion1 {
+    border: 2px solid black;
+}
+
+.educacion {
+
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: rgba(235, 222, 34, 0.514);
+
+}
+
+.edu {
+
+    font-size: 15px;
+
+}
+
+.seccion2 {
+    border: 2px solid black;
+}
+
+.skills {
+
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: rgba(235, 222, 34, 0.514);
+    
+}
+
+.ski {
+
+        font-size: 15px;
+
+}
+
+.seccion3 {
+    border: 2px solid black;
+}
+
+.perfil {
+
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: rgba(235, 222, 34, 0.514);
+}
+
+.per {
+
+    font-size: 20px;
+
+}
+
+.seccion4 {
+    border: 2px solid black;
+}
+
+.experiencia{
+
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: rgba(235, 222, 34, 0.514);
+}
+
+.exp {
+
+    font-size: 15px;
+
+}
